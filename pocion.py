@@ -6,12 +6,10 @@ class Pocion:
         self.image = imagen
         self.rect = self.image.get_rect()
         
-        # --- ATRIBUTOS PRIVADOS (Encapsulamiento) ---
         self.__aparecer = False
         self.__tiempo_aparicion = 0
-        self.__duracion = 5000  # La poción dura 5 segundos en pantalla
+        self.__duracion = 5000 
 
-    # --- GETTERS Y SETTERS ---
     @property
     def activa(self):
         return self.__aparecer
@@ -20,7 +18,6 @@ class Pocion:
     def activa(self, valor):
         self.__aparecer = valor
 
-    # --- MÉTODOS DE LÓGICA ---
     def reubicar(self):
         """Coloca la poción en una posición aleatoria y activa su visibilidad"""
         self.rect.x = random.randint(100, 700)
