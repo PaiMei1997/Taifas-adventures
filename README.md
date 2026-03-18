@@ -41,10 +41,11 @@ Para jugar a Taifa's Adventures, necesitas tener instalado **Python** y la libre
    ```bash
    python main.py
 
-4. **📂 Estructura de Archivos
-  main.py: Lógica principal y bucle del juego.
-  jugador.py: Clase PersonajeTaifa con lógica de movimiento y energía.
-  enemigo.py: Lógica de los ratones y el Jefe.
-  assets/: Carpeta con todos los recursos visuales, sonidos y fuentes.
+4. **📂 Estructura de Archivos**
+   ```bash
+   main.py: Lógica principal y bucle del juego.
+   jugador.py: Clase PersonajeTaifa con lógica de movimiento y energía.
+   enemigo.py: Lógica de los ratones y el Jefe.
+   assets/: Carpeta con todos los recursos visuales, sonidos y fuentes.
 
 Desarrollado con ❤️ por pedrofer97
